@@ -41,7 +41,7 @@ const Contact = () => {
       <div className="max-w-4xl w-full bg-white shadow-2xl rounded-lg flex overflow-hidden">
         {/* Image Section */}
         <div className="w-1/2 hidden md:flex items-center justify-center bg-cover bg-center" 
-             style={{ backgroundImage: "url('https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" }}>
+             style={{ backgroundImage: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHAZZHyxRCL4i-PAa4onvr9G7uCLReypS81A&s')" }}>
         </div>
         {/* Form Section */}
         <div className="w-full md:w-1/2 p-10">
