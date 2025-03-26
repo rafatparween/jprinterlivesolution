@@ -7,6 +7,7 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import PrinterSetup from './service/PrinterSetupIssue';
 import ScannerSetup from './service/Scannersetup';
 import PrivacyPolicy from './service/PrivacyPolicy';
+import Contact  from './service/Contact';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/printersetupissue" element={<PrinterSetup />} />
         <Route path="/printerscannersetup" element={<ScannerSetup />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>

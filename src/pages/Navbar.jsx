@@ -38,6 +38,12 @@ const Navbar = () => {
           >
             Privacy PoLicy
           </Link>
+          <Link
+            to="/Contact"
+            className="hover:border border-[#3730a3] p-2 rounded"
+          >
+            Contact
+          </Link>
         </ul>
       </div>
     </nav>
