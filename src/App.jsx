@@ -8,6 +8,7 @@ import PrinterSetup from './service/PrinterSetupIssue';
 import ScannerSetup from './service/Scannersetup';
 import PrivacyPolicy from './service/PrivacyPolicy';
 import Contact  from './service/Contact';
+import JivoChat from './JivoChat';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
       </Routes>
       <Footer />
     </Router>
+    <JivoChat/>
     </>
   );
 };
